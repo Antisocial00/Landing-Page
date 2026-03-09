@@ -30,7 +30,9 @@ body{
     display: flex;
     width: 300px;
     padding: 3px;
+    margin-top: 5px;
     margin-left: 500px;
+    border-radius: 5px;
 }
 
 .packages{
@@ -41,6 +43,13 @@ body{
 #images{
     display: flex;
     justify-content: space-around;
+    border-radius: 5px;
+}
+
+.paragraphs{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
 }
 
 img{
