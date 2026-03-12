@@ -12,14 +12,34 @@ body{
     text-decoration: none;  
 }
 
-.navbar{
-    background-color: #1f2937;
+nav {
+  background-color: #1f2937;
+  padding: 10px 0;
 }
 
-.navbar ul li{
-    list-style: none;
-    text-decoration: none;
-    margin-left: 400px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
 .home-info{
@@ -28,10 +48,11 @@ body{
 
 .polo{
     display: flex;
-    width: 300px;
+    width: 500px;
+    height: 300px;
     padding: 3px;
     margin-top: 5px;
-    margin-left: 500px;
+    margin-left: 800px;
     border-radius: 5px;
 }
 
@@ -44,6 +65,17 @@ body{
     display: flex;
     justify-content: space-around;
     border-radius: 5px;
+}
+
+.info-box {
+  background-color: whitesmoke;
+  border: 1px solid #1f2937;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
 
 .paragraphs{
@@ -96,3 +128,4 @@ img{
     background-color: white;
     border-radius: 5px;
 }
+
